@@ -1,0 +1,69 @@
+{
+  "info": {
+    "_postman_id": "a5790f29-36ff-46f1-a8f0-846deadced0f",
+    "name": "School API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "40330021"
+  },
+  "item": [
+    {
+      "name": "ADD SCHOOL",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"New Delhi Public School\",\n  \"address\": \"15 Park Avenue, New Delhi, India\",\n  \"latitude\": 30.6139,\n  \"longitude\": 77.209\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://school-management-it4o.onrender.com/addSchool",
+          "protocol": "https",
+          "host": [
+            "school-management-it4o",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "addSchool"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "LIST SCHOOL",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://school-management-it4o.onrender.com/listSchools?latitude=28.7041&longitude=77.1025",
+          "protocol": "https",
+          "host": [
+            "school-management-it4o",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "listSchools"
+          ],
+          "query": [
+            {
+              "key": "latitude",
+              "value": "28.7041"
+            },
+            {
+              "key": "longitude",
+              "value": "77.1025"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
