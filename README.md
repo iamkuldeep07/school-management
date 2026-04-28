@@ -6,9 +6,9 @@ A production-ready **Node.js / Express.js** REST API for managing schools, featu
 
 ## 🌐 Live Links & Deliverables
 
-* **Live API Base URL:** `https://your-app-name.onrender.com` *(Replace this after deploying)*
-* **Interactive API Docs:** `https://your-app-name.onrender.com/api-docs` *(Replace this after deploying)*
-* **Postman Collection:** [Click here to view/download the Postman Collection](./postman_collection.json) *(Make sure to include your exported JSON file in the repo)*
+* **Live API Base URL:** `https://school-management-it4o.onrender.com` 
+* **Interactive API Docs:** `https://school-management-it4o.onrender.com/api-docs/` 
+* **Postman Collection:** [Click here to view/download the Postman Collection](./postman_collection.json) 
 
 ---
 
